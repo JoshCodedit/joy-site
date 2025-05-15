@@ -8,7 +8,7 @@ export default function About() {
       <h3 className="section-header text-center mb-6">About</h3>
       <div className="flex justify-center items-center">
         <img
-          src="../../public/images/dr-joy-white.jpg"
+          src="/images/dr-joy-white.jpg"
           alt="dr joy white"
           className="w-[350px]"
         />
