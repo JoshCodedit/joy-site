@@ -17,7 +17,11 @@ export default function About() {
             {renderText(textContent)}
           </div>
           <div className="text-right">
-            <Button className="inline-block mb-10" text="Read More" link="#" />
+            <Button
+              className="inline-block mb-10"
+              text="Read More"
+              link="/about"
+            />
           </div>
         </div>
       </div>

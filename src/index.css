@@ -7,7 +7,7 @@
         @apply text-primaryGreen font-roboto font-bold text-[22px];
     }
     .main-text{
-        @apply text-primaryGreen font-roboto italic text-[14px];
+        @apply text-primaryGreen font-roboto text-[14px];
     }
     .button-class {
         @apply bg-primaryOrange font-roboto text-white text-[14px] py-2 px-5 rounded-2xl font-light;
