@@ -3,13 +3,22 @@ import renderText from "../functions/functions";
 
 export default function LatestPublicationCard(props) {
   return (
-    <div className="flex justify-center items-center h-[650px]">
-      <div className="mr-[122px]">
+    <div className="flex flex-col sm:flex-row justify-center items-center h-auto sm:h-[650px] px-4 sm:px-0">
+      <div className="order-2 sm:order-1 sm:mr-[122px] w-full sm:w-auto mb-8 sm:mb-0">
         <div
-          className="w-[600px] border-r-2 border-primaryGreen pr-12"
+          className="sm:w-[600px] sm:border-r-2 border-primaryGreen sm:pr-12 text-center sm:text-left"
           id="text"
         >
+          <div className="section-divider sm:hidden"></div>
           <h3 className="section-header mb-5">Latest Publication:</h3>
+          {/* Image for mobile view */}
+          <div className="block sm:hidden mb-4">
+            <img
+              src={props.image}
+              alt={props.imageAlt}
+              className="mx-auto max-w-xs mb-12"
+            />
+          </div>
           <h4 className="text-l font-semibold font-roboto mb-4">
             {props.head}
           </h4>
@@ -18,26 +27,23 @@ export default function LatestPublicationCard(props) {
             {renderText(props.content)}
           </div>
 
-          <div className="text-right">
+          <div className="sm:text-right text-center">
             <Button
-              className="inline-block"
-              link={
-                "https://repeaterbooks.com/product/like-lockdown-never-happened-music-and-culture-during-covid/"
-              }
+              link={props.link}
               text="Read More"
-            />
+              className="inline-block"
+            />{" "}
           </div>
         </div>
       </div>
 
-      <div>
-        {props.image && (
-          <img
-            src={props.image}
-            alt={props.head}
-            className="min-w-[254px] h-[487px]"
-          />
-        )}
+      {/* Image for desktop view */}
+      <div className="hidden sm:block order-1 sm:order-2">
+        <img
+          src={props.image}
+          alt={props.imageAlt}
+          className="max-h-[487px] h-auto object-contain"
+        />
       </div>
     </div>
   );
