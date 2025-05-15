@@ -9,6 +9,9 @@
     .main-text{
         @apply text-primaryGreen font-roboto text-[14px];
     }
+    .main-text-mobile{
+        @apply text-primaryGreen font-roboto text-[16px];
+    }
     .button-class {
         @apply bg-primaryOrange font-roboto text-white text-[14px] py-2 px-5 rounded-2xl font-light;
          /* Adjust line height and letter spacing */

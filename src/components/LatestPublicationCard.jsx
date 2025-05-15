@@ -19,11 +19,11 @@ export default function LatestPublicationCard(props) {
               className="mx-auto max-w-xs mb-12"
             />
           </div>
-          <h4 className="text-l font-semibold font-roboto mb-4">
+          <h4 className="text-xl font-semibold font-roboto mb-4">
             {props.head}
           </h4>
 
-          <div className="main-text mb-6 space-y-3">
+          <div className="sm:main-text mb-6 space-y-3">
             {renderText(props.content)}
           </div>
 
