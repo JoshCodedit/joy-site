@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .section-header {
+        @apply text-primaryGreen font-roboto font-bold text-[22px];
+    }
+    .main-text{
+        @apply text-primaryGreen font-roboto italic text-[14px];
+    }
+    .button-class {
+        @apply bg-primaryOrange font-roboto text-white text-[14px] py-2 px-5 rounded-2xl font-light;
+         /* Adjust line height and letter spacing */
+      }
+    .section-divider {
+        @apply border-b-2 border-primaryGreen w-[1150px] mb-12 m-auto;
+    }
+    .form-input {
+        @apply p-1 w-96 mx-auto rounded-sm border border-gray-300 focus:outline-none;
+    }
+  }

@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title":"Urban Music and Entrepreneurship",
+      "cover": "./images/book1.jpeg",
+      "summary": "With grime music and its related enterprise a key component of the urban music economy, this book employs the inherent contradictions and questions that emerge from an exploration of the grime music scene to build a complex reading of the socio-economic significance of urban music. Incorporating insightful dialogue with the participants in this economy, White challenges the prev...",
+      "link": "https://www.routledge.com/Urban-Music-and-Entrepreneurship-Beats-Rhymes-and-Young-Peoples-Enterprise/White/p/book/9781138608894?source=shoppingads&locale=en-GBP&utm_source=google&utm_medium=cpc&utm_campaign=E7569913852_EMENPC_cross-network&utm_source=google&utm_medium=cpc&utm_campaign=&cid=22390364079&agid=&creative=&keyword=&matchtype=&network=x&device=c&gad_source=1&gad_campaignid=22390375320&gbraid=0AAAAAC2Cn93WjV_6Z_Wkokq6Q5XooHa2f&gclid=Cj0KCQjwrPHABhCIARIsAFW2XBO5Dr-IOy8nrPaPW0Dny5qDAL3qECtLNdjwnP04G-YwH6XP3pO26igaAqRKEALw_wcB"
+    },
+    {
+      "id": 2,
+      "title": "Terraformed: Young Black Lives in the Inner City",
+      "cover": "./images/book2.jpeg",
+      "summary": "In Terraformed, Joy White offers an insider ethnography of Forest Gate — a neighbourhood in Newham, east London — analysing how these issues affect the black youth of today. Connecting the dots between music, politics and the built environment, it centres the lived experiences of black youth who have had it all: huge student debt, invisible homelessness, custodial sentences, electronic tagging, surveillance, arrest, ASBOs, issues with health and well-being, and of course, loss.",
+      "link": "https://repeaterbooks.com/product/terraformed-young-black-lives-in-the-inner-city/"
+    },
+    {
+      "id": 3,
+      "title": "Like Lockdown Never Happened: Music and Culture During Covid",
+      "cover": "./images/book3.jpeg",
+      "summary": "An attempt to make sense of chronological and kairotic time in the early era of the pandemic, this book explores the way that Black joy and sonic Black geographies were key to the culture of this period, and how Black music and Black creative expression soundtracked and sustained us during the pandemic.",
+      "link": "https://repeaterbooks.com/product/like-lockdown-never-happened-music-and-culture-during-covid/"
+    }
+  ]
+  
