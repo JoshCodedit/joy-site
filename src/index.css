@@ -17,7 +17,7 @@
          /* Adjust line height and letter spacing */
       }
     .section-divider {
-        @apply border-b-2 border-primaryGreen w-[1150px] mb-12 m-auto;
+        @apply border-b-2 border-primaryGreen sm:w-[1150px] w-[95%] mb-12 m-auto;
     }
     .form-input {
         @apply p-1 w-96 mx-auto rounded-sm border border-gray-300 focus:outline-none;
