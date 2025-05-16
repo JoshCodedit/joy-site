@@ -8,7 +8,7 @@ export default function Publication(props) {
       : props.summary;
 
   return (
-    <div className="relative w-[280px] group cursor-pointer">
+    <div className="relative w-[280px] mx-auto group cursor-pointer">
       <img
         src={props.cover}
         alt={props.title}

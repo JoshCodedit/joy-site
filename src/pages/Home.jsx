@@ -10,6 +10,7 @@ export default function Home() {
       <LatestPublication />
       <div className="section-divider"></div>
       <About />
+      <div className="section-divider sm:invisible"></div>
       <AllPublications />
       <div className="section-divider"></div>
       <GetInTouch />
