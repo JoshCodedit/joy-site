@@ -25,15 +25,15 @@ export default function AllPublications() {
   }
 
   return (
-    <div className="mb-20">
+    <div className="my-20">
       <h2 className="section-header text-center my-12">All Publications</h2>
 
       {/* Mobile Carousel */}
-      <div className="block sm:hidden">
+      <div className="block sm:hidden ">
         {publications.length > 0 && (
           <Slider {...settings}>
             {publications.map((publication) => (
-              <div key={publication.id} className="px-4">
+              <div key={publication.id} className="px-4 ">
                 <Publication
                   title={publication.title}
                   cover={publication.cover}
@@ -47,7 +47,7 @@ export default function AllPublications() {
       </div>
 
       {/* Desktop Grid */}
-      <div className="hidden sm:flex sm:justify-between sm:w-[1200px] sm:m-auto">
+      <div className="hidden sm:flex sm:justify-between sm:w-[1400px] sm:m-auto">
         {publications.map((publication) => (
           <Publication
             key={publication.id}
