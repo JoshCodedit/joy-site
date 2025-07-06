@@ -85,7 +85,7 @@ export default function Header() {
                   : "hover:text-primaryOrange"
               }
             >
-              PRESENTATIONS
+              PUBLICATIONS
             </NavLink>
           </li>
           <li>
