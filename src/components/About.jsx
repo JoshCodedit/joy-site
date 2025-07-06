@@ -1,6 +1,7 @@
-import Button from "../components/Button";
+import { NavLink } from "react-router-dom";
 import textContent from "../../public/docs/biography.txt?raw";
 import renderText from "../functions/functions";
+import Button from "../components/Button";
 
 export default function About() {
   return (
@@ -19,11 +20,9 @@ export default function About() {
             {renderText(textContent)}
           </div>
           <div className="text-center sm:text-right">
-            <Button
-              className="inline-block mb-10"
-              text="Read More"
-              link="/about"
-            />
+            <NavLink to="/about">
+              <Button text="Read More" className="inline-block mb-12" />
+            </NavLink>
           </div>
         </div>
       </div>
