@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import publications from "../../public/docs/publications.json";
 import Publication from "./Publication";
+import Button from "./Button";
+import { NavLink } from "react-router-dom";
 
 export default function AllPublications() {
   console.log("Publications data:", publications); // Debug log
@@ -26,8 +28,6 @@ export default function AllPublications() {
 
   return (
     <div className="my-20">
-      <h2 className="section-header text-center my-12">All Publications</h2>
-
       {/* Mobile Carousel */}
       <div className="block sm:hidden ">
         {publications.length > 0 && (

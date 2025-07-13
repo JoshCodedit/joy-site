@@ -78,7 +78,7 @@ export default function Header() {
           </li>
           <li>
             <NavLink
-              to="/presentations"
+              to="/publications"
               className={({ isActive }) =>
                 isActive
                   ? "hover:text-primaryOrange active"
@@ -98,6 +98,18 @@ export default function Header() {
               }
             >
               PROJECTS
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/presentations"
+              className={({ isActive }) =>
+                isActive
+                  ? "hover:text-primaryOrange active"
+                  : "hover:text-primaryOrange"
+              }
+            >
+              PRESENTATIONS
             </NavLink>
           </li>
           <li>
@@ -160,7 +172,7 @@ export default function Header() {
           </li>
           <li className="px-4 py-2">
             <NavLink
-              to="/presentations"
+              to="/publications"
               className={({ isActive }) =>
                 isActive
                   ? "hover:text-primaryOrange active"
@@ -168,7 +180,7 @@ export default function Header() {
               }
               onClick={() => setIsOpen(false)}
             >
-              PRESENTATIONS
+              PUBLCATIONS
             </NavLink>
           </li>
           <li className="px-4 py-2">
@@ -182,6 +194,19 @@ export default function Header() {
               onClick={() => setIsOpen(false)}
             >
               PROJECTS
+            </NavLink>
+          </li>
+          <li className="px-4 py-2">
+            <NavLink
+              to="/presentations"
+              className={({ isActive }) =>
+                isActive
+                  ? "hover:text-primaryOrange active"
+                  : "hover:text-primaryOrange"
+              }
+              onClick={() => setIsOpen(false)}
+            >
+              PRESENTATIONS
             </NavLink>
           </li>
           <li className="px-4 py-2">

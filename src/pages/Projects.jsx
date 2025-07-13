@@ -4,7 +4,8 @@ export default function Projects() {
   return (
     <>
       <div className="text-primaryGreen max-w-4xl mx-auto px-4 py-12">
-        <h2 className="section-header text-center mb-10">Public Output</h2>
+        <h2 className="section-header text-center mb-10">Projects</h2>
+        <h2 className="font-bold text-lg mb-6">Public Output</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
             ITV Our Jubilee: Series 1 - Episode 3 – Black Britons tell personal
@@ -21,9 +22,7 @@ export default function Projects() {
           </li>
         </ul>
 
-        <h2 className="section-header text-center mb-10">
-          Consultant/Contributor
-        </h2>
+        <h2 className="font-bold text-lg mb-6">Consultant/Contributor</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
             Grime Stories - Museum of London
@@ -66,7 +65,7 @@ export default function Projects() {
           </li>
         </ul>
 
-        <h2 className="section-header text-center mb-10">Podcasts</h2>
+        <h2 className="font-bold text-lg mb-6">Podcasts</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
             Surviving Society (with Chantelle Lewis &amp; Tissot Regis)
@@ -135,9 +134,7 @@ export default function Projects() {
           </li>
         </ul>
 
-        <h2 className="section-header text-center mb-10">
-          Interviews and Discussions
-        </h2>
+        <h2 className="font-bold text-lg mb-6">Interviews and Discussions</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
             Prof Lez Henry &amp; Dr Joy White Outerview August
@@ -202,9 +199,7 @@ export default function Projects() {
           </li>
         </ul>
 
-        <h2 className="section-header text-center mb-10">
-          Radio Documentaries
-        </h2>
+        <h2 className="font-bold text-lg mb-6">Radio Documentaries</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
             ABC (Australia) Lost and Found – Urban London

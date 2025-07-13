@@ -7,6 +7,7 @@ import Publications from "./pages/Publications";
 import Projects from "./pages/Projects";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import Presentations from "./pages/Presentations";
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/presentations" element={<Publications />} />
+            <Route path="/publications" element={<Publications />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/presentations" element={<Presentations />} />
           </Routes>
         </main>
       </div>
