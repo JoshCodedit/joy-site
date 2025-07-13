@@ -7,7 +7,7 @@
         @apply text-primaryGreen font-roboto font-bold text-[22px];
     }
     .main-text{
-        @apply text-primaryGreen font-roboto text-[14px];
+        @apply text-primaryGreen font-roboto text-[16px];
     }
     .main-text-mobile{
         @apply text-primaryGreen font-roboto text-[16px];
