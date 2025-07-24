@@ -16,13 +16,8 @@ export default function About() {
         />
         {/* Text content */}
         <div className="sm:ml-[152px] w-full sm:w-[500px] sm:border-b-2 border-primaryGreen">
-          <div className="sm:main-text text-main-mobile my-6 space-y-6 text-center sm:text-left">
+          <div className="sm:main-text text-main-mobile mb-16 my-6 space-y-6 text-center sm:text-left">
             {renderText(textContent)}
-          </div>
-          <div className="text-center sm:text-right">
-            <NavLink to="/about">
-              <Button text="Read More" className="inline-block mb-12" />
-            </NavLink>
           </div>
         </div>
       </div>

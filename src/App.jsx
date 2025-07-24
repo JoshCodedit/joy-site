@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Presentations from "./pages/Presentations";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="min-h-screen">
         <Header />
         <main>
+        <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

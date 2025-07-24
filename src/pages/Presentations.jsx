@@ -4,7 +4,7 @@ export default function Presentations() {
   return (
     <div>
       <div className="text-primaryGreen max-w-4xl mx-auto px-4 py-12">
-        <h2 className="section-header mb-10">Presentations</h2>
+        <h2 className="section-header text-center mb-10">Presentations</h2>
         <h3 className="font-bold text-lg mb-6">Keynote</h3>
         <ul className="mb-12 space-y-4 main-text">
           <li>
