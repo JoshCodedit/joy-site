@@ -8,7 +8,7 @@ export default function Projects() {
         <h2 className="font-bold text-lg mb-6">Public Output</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
-            ITV Our Jubilee: Series 1 - Episode 3 – Black Britons tell personal
+            <span className="font-bold">ITV Our Jubilee</span>: Series 1 - Episode 3 – Black Britons tell personal
             stories of the Queen&#39;s Jubilee years in this film
             <br />
             <a
@@ -25,7 +25,7 @@ export default function Projects() {
         <h2 className="font-bold text-lg mb-6">Consultant/Contributor</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
-            Grime Stories - Museum of London
+            <span className="font-bold">Grime Stories</span>: Museum of London
             <br />
             <a
               href="https://www.museumoflondon.org.uk/museum-london/whats-on/exhibitions/grime-stories"
@@ -37,9 +37,9 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Conversations
+            <span className="font-bold">Conversations</span>
             <br />
-            Kano - Newham Talks with Joy White
+            <span className="font-bold">Kano</span>: Newham Talks with Joy White
             <br />
             <a
               href="https://www.youtube.com/watch?v=CrPtcjfHLz8&t=980s"
@@ -51,8 +51,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Greater Manchester Tenants Union: Young Black Lives in the Inner
-            City
+            <span className="font-bold">Greater Manchester Tenants Union</span>: Young Black Lives in the Inner City
             <br />
             <a
               href="https://www.youtube.com/watch?v=WOgm8i9BsL0"
@@ -68,9 +67,9 @@ export default function Projects() {
         <h2 className="font-bold text-lg mb-6">Podcasts</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
-            Surviving Society (with Chantelle Lewis &amp; Tissot Regis)
+            <span className="font-bold">Surviving Society</span> (with Chantelle Lewis &amp; Tissot Regis)
             <br />
-            E088 Joy White: Terraformed: Young Black Lives in the Inner City
+            <span className="font-bold">E088 Joy White</span>: Terraformed: Young Black Lives in the Inner City
             <br />
             <a
               href="https://open.spotify.com/episode/7tcUuYkN66LUIKCdv7Ap9P"
@@ -82,8 +81,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Black Media and Culture Research Group (with Donalea Scott &amp;
-            Julia Toppin)
+            <span className="font-bold">Black Media and Culture Research Group</span> (with Donalea Scott &amp; Julia Toppin)
             <br />
             <a
               href="https://soundcloud.com/user-866526843/terraformed-young-black-lives-in-the-inner-city"
@@ -95,7 +93,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            New Books Network (with Dave O Brien)
+            <span className="font-bold">New Books Network</span> (with Dave O Brien)
             <br />
             <a
               href="https://newbooksnetwork.com/joy-white-terraformed-young-black-lives-in-the-inner-city-repeater-books-2020"
@@ -107,8 +105,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Short Takes: Terraformed: Young Black Lives in the Inner City (UCL
-            Sarah Parker Remond Centre)
+            <span className="font-bold">Short Takes</span>: Terraformed: Young Black Lives in the Inner City (UCL Sarah Parker Remond Centre)
             <br />
             <a
               href="https://www.ucl.ac.uk/racism-racialisation/publications/2020/jun/short-takes-terraformed-young-black-lives-inner-city"
@@ -120,8 +117,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Joy White &amp; Dhanveer Singh Brar: Sonic Ecologies of Contemporary
-            Black Music
+            <span className="font-bold">Joy White &amp; Dhanveer Singh Brar</span>: Sonic Ecologies of Contemporary Black Music
             <br />
             <a
               href="https://mitpress.podbean.com/e/joy-white-dhanveer-singh-brar-sonic-ecologies-of-contemporary-black-music/"
@@ -137,7 +133,7 @@ export default function Projects() {
         <h2 className="font-bold text-lg mb-6">Interviews and Discussions</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
-            Prof Lez Henry &amp; Dr Joy White Outerview August
+            <span className="font-bold">Prof Lez Henry &amp; Dr Joy White</span>: Outerview August
             <br />
             <a
               href="https://www.youtube.com/watch?v=RU5HfMTIu_w"
@@ -149,7 +145,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Tribune: The Newham Enclosures
+            <span className="font-bold">Tribune</span>: The Newham Enclosures
             <br />
             <a
               href="https://tribunemag.co.uk/2020/08/the-newham-enclosures/"
@@ -161,7 +157,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Black Agenda Report Book Forum
+            <span className="font-bold">Black Agenda Report</span>: Book Forum
             <br />
             <a
               href="https://blackagendareport.com/bar-book-forum-joy-whites-terraformed"
@@ -173,7 +169,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            IRR: Meritocracy is a Mirage
+            <span className="font-bold">IRR</span>: Meritocracy is a Mirage
             <br />
             <a
               href="https://irr.org.uk/article/meritocracy-is-a-mirage/"
@@ -185,8 +181,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            Live Listening Session MSCTY x The Royal Docks [LONDON] - Alberto
-            Duman and Joy White
+            <span className="font-bold">Live Listening Session MSCTY x The Royal Docks [LONDON]</span>: Alberto Duman and Joy White
             <br />
             <a
               href="https://www.mscty.space/article/alberto-duman-joy-white-in-conversation"
@@ -202,7 +197,7 @@ export default function Projects() {
         <h2 className="font-bold text-lg mb-6">Radio Documentaries</h2>
         <ul className="mb-12 space-y-4 main-text">
           <li>
-            ABC (Australia) Lost and Found – Urban London
+            <span className="font-bold">ABC (Australia)</span>: Lost and Found – Urban London
             <br />
             <a
               href="https://www.abc.net.au/radionational/programs/blueprintforliving/lost-and-found-urban-london/13446422"
@@ -214,7 +209,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            BBC Radio 4 Where are all the Black women in Grime?
+            <span className="font-bold">BBC Radio 4</span>: Where are all the Black women in Grime?
             <br />
             <a
               href="https://www.bbc.co.uk/programmes/m0003tcf"
@@ -226,7 +221,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            BBC Radio 4: The Gospel of Grime
+            <span className="font-bold">BBC Radio 4</span>: The Gospel of Grime
             <br />
             <a
               href="https://www.bbc.co.uk/programmes/m000j805"
@@ -238,7 +233,7 @@ export default function Projects() {
             </a>
           </li>
           <li>
-            BBC Radio 4: Unpopped! The Roots and Representation of Grime
+            <span className="font-bold">BBC Radio 4</span>: Unpopped! The Roots and Representation of Grime
             <br />
             <a
               href="https://www.bbc.co.uk/programmes/p063jkff"
