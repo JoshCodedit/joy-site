@@ -2,6 +2,8 @@ import AllPublications from "../components/AllPublications";
 import Footer from "../components/Footer";
 
 export default function Publications() {
+
+  
   return (
     <>
       <h2 className="section-header text-center my-12">Latest Books</h2>

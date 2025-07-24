@@ -5,8 +5,21 @@ import GetInTouch from "../components/GetInTouch";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === "#contact") {
+      const el = document.getElementById("contact");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="text-primaryGreen">
       <LatestPublication />

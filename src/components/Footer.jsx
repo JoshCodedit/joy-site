@@ -31,7 +31,7 @@ export default function Footer() {
         Website by{" "}
         <a
           href="https://joshdixon.co.uk/"
-          className="text-primaryOrange hover:underline"
+          className="text-[#f3be07] hover:underline"
           target="blank"
         >
           Joshua Dixon

@@ -16,10 +16,8 @@ export default function AllPublications() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    centerMode: true,
-    centerPadding: "0px",
     swipeToSlide: true,
-    className: "sm:hidden", // Hide slider in desktop
+    className: "sm:hidden", 
   };
 
   if (!publications || publications.length === 0) {
@@ -29,11 +27,11 @@ export default function AllPublications() {
   return (
     <div className="my-20">
       {/* Mobile Carousel */}
-      <div className="block sm:hidden ">
+      <div className="block sm:hidden w-full overflow-x-hidden">
         {publications.length > 0 && (
           <Slider {...settings}>
             {publications.map((publication) => (
-              <div key={publication.id} className="px-4 ">
+              <div key={publication.id} className="w-full px-0">
                 <Publication
                   title={publication.title}
                   cover={publication.cover}

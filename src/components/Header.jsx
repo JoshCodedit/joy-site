@@ -51,7 +51,7 @@ export default function Header() {
 
       {/* Desktop Navigation */}
       <nav className="hidden sm:block bg-primaryGreen">
-        <ul className="flex justify-center space-x-7 text-white font-light py-2">
+        <ul className="flex justify-center space-x-7 text-white font-bold py-2">
           <li>
             <NavLink
               to="/"
@@ -62,18 +62,6 @@ export default function Header() {
               }
             >
               HOME
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                isActive
-                  ? "hover:text-primaryOrange active"
-                  : "hover:text-primaryOrange"
-              }
-            >
-              ABOUT
             </NavLink>
           </li>
           <li>
@@ -125,14 +113,13 @@ export default function Header() {
             </NavLink>
           </li>
           <li>
-            <ScrollLink
-              to="contact"
-              smooth={true}
-              duration={500}
-              className="hover:text-primaryOrange cursor-pointer"
+            <a
+              href="/#contact"
+              className="hover:text-primaryOrange"
+              onClick={() => setIsOpen(false)}
             >
               CONTACT
-            </ScrollLink>
+            </a>
           </li>
         </ul>
       </nav>
@@ -155,19 +142,6 @@ export default function Header() {
               onClick={() => setIsOpen(false)}
             >
               HOME
-            </NavLink>
-          </li>
-          <li className="px-4 py-2">
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                isActive
-                  ? "hover:text-primaryOrange active"
-                  : "hover:text-primaryOrange"
-              }
-              onClick={() => setIsOpen(false)}
-            >
-              ABOUT
             </NavLink>
           </li>
           <li className="px-4 py-2">
@@ -223,15 +197,13 @@ export default function Header() {
             </NavLink>
           </li>
           <li className="px-4 py-2">
-            <ScrollLink
-              to="contact"
-              smooth={true}
-              duration={500}
-              className="hover:text-primaryOrange cursor-pointer"
+            <a
+              href="/#contact"
+              className="hover:text-primaryOrange"
               onClick={() => setIsOpen(false)}
             >
               CONTACT
-            </ScrollLink>
+            </a>
           </li>
         </ul>
       </nav>

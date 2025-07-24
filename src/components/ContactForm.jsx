@@ -25,7 +25,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-secondaryGreen rounded-xl p-4 sm:p-6 w-[95%] sm:w-full max-w-3xl mx-auto">
+    <div className="bg-primaryGreen rounded-xl p-4 sm:p-6 w-[95%] sm:w-full max-w-3xl mx-auto">
       <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-4">
         <input
           type="text"
@@ -59,7 +59,7 @@ export default function ContactForm() {
         <button
           type="submit"
           value={"Send"}
-          className="bg-primaryGreen text-white px-6 py-2 rounded-full w-fit mt-4 hover:bg-[#3d4b2b] transition self-center sm:self-end sm:mr-[22%]"
+          className="bg-primaryOrange text-white px-6 py-2 rounded-full w-fit mt-4 hover:bg-[#e28f36] transition self-center sm:self-end sm:mr-[22%]"
         >
           Submit
         </button>
