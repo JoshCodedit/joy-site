@@ -3,7 +3,7 @@ import ClipLoader from 'react-spinners/ClipLoader';
 import Footer from '../components/Footer';
 
 // Dynamically import all images from src/assets/website-photos
-const imageModules = import.meta.glob('../assets/website-photos/*.{jpg,jpeg,png}');
+const imageModules = import.meta.glob('../assets/website-photos/*.{jpg,JPG,jpeg,png}');
 
 export default function Gallery() {
   const [images, setImages] = useState([]);
